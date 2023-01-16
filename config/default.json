@@ -1,0 +1,13 @@
+{
+    "mongoURI": "mongodb+srv://root:root@cluster0.pvbl7cg.mongodb.net/dev?retryWrites=true&w=majority",
+    "jwtSecret": "jwt-secret",
+    "smsAPI": "smsAPI",
+    "whatsApp": "whatsApp",
+    "username": "username",
+    "password": "password",
+    "enableAuth": true,
+    "enablelogs": true,
+    "isProd": false,
+    "api": "api",
+    "razorpayUrl": "razorpayUrl"
+}
