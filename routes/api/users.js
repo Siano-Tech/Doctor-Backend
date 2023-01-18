@@ -40,7 +40,7 @@ router.get('/me', auth, async (req, res) => {
 // @desc     Register user
 // @access   Public
 router.post(
-  '/createUser',
+  '/create',
   check('name', 'Name is required').notEmpty(),
   check('email', 'Please include a valid email').isEmail(),
   // check(

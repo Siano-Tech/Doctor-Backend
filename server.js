@@ -20,8 +20,8 @@ app.use('/api/auth', require('./routes/api/auth'));
 // app.use('/api/orders', require('./routes/api/order'));
 // app.use('/api/upload', require('./routes/api/upload'));
 // app.use('/api/doctor', require('./routes/api/doctor'));
-app.use('/api/appointment', require('./routes/api/appointment'));
-app.use('/api/contact', require('./routes/api/contact'));
+app.use('/api/appointments', require('./routes/api/appointment'));
+app.use('/api/contacts', require('./routes/api/contact'));
 
 
 
