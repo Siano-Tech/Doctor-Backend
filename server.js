@@ -22,10 +22,11 @@ app.use('/api/auth', require('./routes/api/auth'));
 // app.use('/api/orders', require('./routes/api/order'));
 // app.use('/api/upload', require('./routes/api/upload'));
 // app.use('/api/doctor', require('./routes/api/doctor'));
-app.use('/api/appointments', require('./routes/api/appointment'));
-app.use('/api/contacts', require('./routes/api/contact'));
-
-
+app.use('/api/schedules', require('./routes/api/schedules'));
+app.use('/api/appointments', require('./routes/api/appointments'));
+app.use('/api/contacts', require('./routes/api/contacts'));
+app.use('/api/newsletters', require('./routes/api/newsletters'));
+app.use('/api/rx', require('./routes/api/reports'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {

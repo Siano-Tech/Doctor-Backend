@@ -9,5 +9,6 @@
     "enablelogs": true,
     "isProd": false,
     "api": "api",
-    "razorpayUrl": "razorpayUrl"
+    "razorpayUrl": "razorpayUrl",
+    "appointmentDuration": "30"
 }
